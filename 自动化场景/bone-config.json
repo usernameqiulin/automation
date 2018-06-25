@@ -1,0 +1,27 @@
+{
+  "type": "mobile",
+  "APILevel": "3",
+  "debug": {
+    "params": {
+      "sceneType": "ilop",
+      "sceneId123": "0cd5d5fd98c1402e85eb5d55c8c96617"
+    },
+    "default": {
+      "platform": "ios",
+      "ip": "127.0.0.1"
+    },
+    "router": "/"
+  },
+  "release": {
+    "ios": {
+      "appVersion": "3.6.0",
+      "runtimeVersion": "2.0.0"
+    }
+  },
+  "build": {
+    "entry": {
+      "app": "./app.js"
+    }
+  },
+  "bundleId": "mobile-plugin-scene"
+}

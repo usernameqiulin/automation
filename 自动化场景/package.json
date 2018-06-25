@@ -1,0 +1,44 @@
+{
+  "name": "@ilop/mobile-plugin-scene",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "fix": "eslint --fix src",
+    "pack": "bone build",
+    "start": "bone start"
+  },
+  "dependencies": {
+    "@bone/bone-mobile": "^2.0.0",
+    "@bone/bone-mobile-ui": "^2.0.0",
+    "@bone/intl": "^0.1.14",
+    "@bone/intl-helper": "^0.1.5",
+    "@bone/living-sdk": "^0.1.3",
+    "@bone/logger": "^0.2.2",
+    "jstz": "^2.0.0",
+    "moment-timezone": "^0.5.16",
+    "prop-types": "^15.6.1",
+    "react": "~15.4.2",
+    "react-native": "0.41.2"
+  },
+  "bnpm": {
+    "mode": "yarn"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-ali": "^3.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
